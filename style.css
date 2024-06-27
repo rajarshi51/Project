@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+body {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 100px #3b008e;
+}
+#heading {
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: xx-large;
+    color: #fff;
+    font-weight: bold;
+}
+form {
+    display: grid;
+    gap: 25px;
+}
+label {
+    color: #fff;
+    font-weight: bold;
+}
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    font-weight: bold;
+    background: linear-gradient(#006b05,#45a049);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    box-shadow: 0 0 20px #45a049;
+}
+#class, #birthDate, #enrollmentDate{
+    cursor: pointer;
+}
